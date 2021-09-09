@@ -20,7 +20,7 @@
         </div>
 
         <div class="lista">
-            <ul v-if="toDos.lenght > 0" >
+            <ul v-if="toDos.length > 0" >
                 <li v-for='(todo, index) in toDos'>
                     {{todo}}
                     <input type="checkbox">
@@ -28,7 +28,7 @@
 
                 </li>
             </ul>
-            <h2>Non ci sono to do </h2>
+            <h2 v-else>Non ci sono to do </h2>
         </div>
     </div>
 
