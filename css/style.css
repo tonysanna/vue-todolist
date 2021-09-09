@@ -11,9 +11,11 @@
 }
 
 .logo {
+    text-align: center;
+    padding: 20px 0;
 
 }
 
 .logo img {
-    
+    max-width: 295px;
 }
